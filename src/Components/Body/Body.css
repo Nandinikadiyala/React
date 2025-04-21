@@ -1,0 +1,157 @@
+.body-main{
+    display: flex;
+    width: auto;
+    padding: 5px;
+}
+/* left part  */
+.left{
+    color: aliceblue;
+    width: auto;
+    padding: 10px 1rem;
+    margin-left: 36px;
+    margin-top: 2rem;
+    display: block;
+}
+.h1{
+    font-size: 30px;
+    color: aliceblue;
+    word-spacing: 10px;
+    font-family: Archivo;
+}
+.name{
+    font-size: 34px;
+    margin-left: 3px;
+    color: red;
+    font-family: Commissioner;
+}
+.h2{
+    display: flex;
+    font-size: 24px;
+    word-spacing: 5px;
+    font-family: Coming Soon;
+    font-style:oblique;
+}
+.cv-button{
+    width: 8rem;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 10px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: whitesmoke;
+    font-family: Volkhov;
+}
+.cv-button:hover{
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: #2D2727;
+    transform: scale(1.04);
+}
+/* middle part */
+.boy{
+    width: 80%;
+    opacity: 60%;
+    border-radius: 50%;
+    position: relative;
+    left: 2rem;
+}
+/* right part */
+.right{
+    width: auto;
+    position:relative;
+    right: 2rem; 
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.links{
+    width: 26px;
+} 
+.links:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 1200px)  {
+    .body-main{
+        width: auto;
+    } 
+   
+}
+@media only screen and (max-width: 901px)  {
+    .body-main{
+        width: 60rem;
+    }    
+    .right{
+        position: relative;
+        left: 1px;
+    }
+}
+@media only screen and (max-width: 769px)  {
+    .body-main{
+        width: 55rem;
+    }    
+    .boy{
+        position: relative;
+        top: 4rem;
+    }
+}
+@media only screen and (max-width: 481px)  {
+    .body-main{
+        width: 29rem;
+    }
+    .left{
+        margin-left: 10px;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .h2{
+        font-size:16px ;
+    }
+    .name{
+        font-size: 32px;
+    }
+    .boy{
+        position: relative;
+        top: 1rem;
+        margin-top: 2rem;
+        width: 15rem;
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 19.2rem;
+        left: -13rem;
+        gap: 12px;
+        height: 30px;
+    }
+    .links:hover{
+        transform: scale(1.2);
+    }    
+}
+/* .cv-button{
+    position: relative;
+    left: 15rem;
+    bottom: 8rem;
+} */
+@media only screen and (max-width: 320px)  {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: content-box;
+    }    
+    .body-main{
+        background-color: #1a1819;
+            width: 27.6rem;
+        }  
+        .boy{
+            position: relative;
+            margin-right: 1rem;
+        }
+    .cv-button{
+        position: relative;
+        bottom:7rem;
+        left: 15rem;
+    }  
+}

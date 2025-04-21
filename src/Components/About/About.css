@@ -1,0 +1,94 @@
+.about-main{
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 1rem;
+    margin-top: 7rem;
+    flex-direction: column;
+    color: aliceblue;
+}
+.about{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.a1{
+    background-color: #000000;
+    padding: 5px 30%;
+    font-size: 30px;
+    border-radius: 1px 24px 1px 24px;
+    font-family: Commissioner;
+    box-shadow: rgba(255, 215, 215, 0.25) 0px 54px 55px, rgba(255, 196, 196, 0.12) 0px -12px 30px, rgba(252, 148, 148, 0.12) 0px 4px 6px, rgba(224, 165, 165, 0.17) 0px 12px 13px, rgba(179, 177, 177, 0.09) 0px -3px 5px;
+}
+.card{
+    height: auto;
+    display: flex;
+    margin-top: 3rem;
+    padding: 7px;
+    background: transparent;
+    justify-content: space-between;
+}
+.cards{
+    height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+    padding: 12px 2%;
+    color: aliceblue;
+    box-shadow: rgba(230, 191, 191, 0.16) 0px 3px 6px, rgba(240, 200, 200, 0.23) 0px 3px 6px;
+}
+.cards-img{
+    height: 4rem;
+}
+.c1{
+    display: flex;
+    font-size:22px;
+    padding: 10px ;
+    text-align: center;
+    color: rgb(247, 165, 183);
+    font-family: Commissioner;
+}
+.c2{
+ display: flex;
+ font-size: 16px;
+ padding: 10px;
+ color:aliceblue;
+ justify-content: center;
+ font-family: Coming Soon;
+ font-style:oblique;
+}
+@media only screen and (max-width: 1200px)  {
+    .about-main{
+        width: auto;
+    }
+    }
+    @media only screen and (max-width: 901px)  {
+        .about-main{
+            width: 60rem;
+        }
+    }
+    @media only screen and (max-width: 769px)  {
+    .about-main{
+        width: 55rem;
+    }
+    }
+    @media only screen and (max-width: 481px)  {
+    .about-main{
+        width: 34rem;
+        }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .c1{
+        justify-content: center;
+    }
+    }
+    @media only screen and (max-width: 320px)  {
+    .about-main{
+        width: 26.3rem;
+        background-color: #1a1819;
+        margin-top: 0;
+        }
+    }
+    

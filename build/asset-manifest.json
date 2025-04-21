@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71de84a2.css",
+    "main.js": "/static/js/main.518550ea.js",
+    "static/media/MicrosoftTeams-image (12)-PhotoRoom.png": "/static/media/MicrosoftTeams-image (12)-PhotoRoom.88ae5392951704182d39.png",
+    "static/media/pic2.png": "/static/media/pic2.099084926583a93840ca.png",
+    "static/media/blogging.png": "/static/media/blogging.03f91b5853378171d874.png",
+    "static/media/music.png": "/static/media/music.6081d5a532e9a4fbfb99.png",
+    "static/media/Resume.pdf": "/static/media/Resume.38ce7b0fa729c6ba68c1.pdf",
+    "static/media/certificate.png": "/static/media/certificate.c1973fad60fcf0f4fea9.png",
+    "static/media/react.png": "/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/stack.png": "/static/media/stack.8722ca4b7ed9fbc19cc8.png",
+    "static/media/education.png": "/static/media/education.e223d93b787f683faaa2.png",
+    "static/media/deignicon.png": "/static/media/deignicon.f721d6300da36dde4a81.png",
+    "static/media/instagram.png": "/static/media/instagram.827f93d0d28dcfe9c826.png",
+    "static/media/location.png": "/static/media/location.f357e60b518a79228eeb.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.5fc400c4b153fc178ad7.png",
+    "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
+    "static/media/webicon.png": "/static/media/webicon.f9558c1aa5813acf2942.png",
+    "static/media/twitter.png": "/static/media/twitter.335415c915b3d6de42b6.png",
+    "static/media/phone-call.png": "/static/media/phone-call.555baddb7dc7222fcd8d.png",
+    "static/media/mail.png": "/static/media/mail.f63e314696a068b00d5b.png",
+    "static/media/logo.png": "/static/media/logo.315fc2fe4b890aff3186.png",
+    "static/media/linkedin.png": "/static/media/linkedin.3e241fce2016e289626a.png",
+    "static/media/androidicon.png": "/static/media/androidicon.df7cb44691d5ffb13ada.png",
+    "index.html": "/index.html",
+    "main.71de84a2.css.map": "/static/css/main.71de84a2.css.map",
+    "main.518550ea.js.map": "/static/js/main.518550ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71de84a2.css",
+    "static/js/main.518550ea.js"
+  ]
+}
